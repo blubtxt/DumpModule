@@ -1,0 +1,18 @@
+ 
+ Module Dumper is a small commandline Tool for Windows.
+ It dumps a loaded Module ( .dll ) from the memory
+ of a specified Process to a file on your Hardrive, 
+ using WinAPI. 
+
+ - Usage: DumpModule.exe ProcessName ModuleName DumpPath
+
+ - Example: DumpModule.exe steam.exe Steam.dll C:\\test.dump 
+
+ If you don`t refer a process name you get a process list, 
+ the same with modules.
+
+ Tested on Windows XP SP3
+
+ Should work on Windows 2000
+                Windows XP SP1, SP2 and SP3
+                Windows Vista
